@@ -9,7 +9,7 @@ it("renders correctly", () => {
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       <input
-        class="sc-bdfBwQ djqdDV"
+        class="sc-bdfBwQ jvuiMl"
         scale="md"
         type="text"
         value="input"
