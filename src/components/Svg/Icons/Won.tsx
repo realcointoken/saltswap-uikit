@@ -2,8 +2,7 @@ import React from "react";
 import Svg from "../Svg";
 import { SvgProps } from "../types";
 
-const Icon: React.FC<SvgProps> = (props) => {
-  return (
+const Icon: React.FC<SvgProps> = (props) => (
     <Svg viewBox="0 0 80 80" {...props}>
       <g clipPath="url(#clip0)">
         <path
@@ -101,6 +100,5 @@ const Icon: React.FC<SvgProps> = (props) => {
       </defs>
     </Svg>
   );
-};
 
 export default Icon;

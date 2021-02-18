@@ -16,8 +16,7 @@ export default {
   argTypes: {},
 } as Meta;
 
-export const Default: React.FC = () => {
-  return (
+export const Default: React.FC = () => (
     <div style={{ padding: "32px", width: "400px" }}>
       <Row>
         <Alert title="Info">
@@ -41,12 +40,10 @@ export const Default: React.FC = () => {
       </Row>
     </div>
   );
-};
 
 const handleClick = noop;
 
-export const WithHandler: React.FC = () => {
-  return (
+export const WithHandler: React.FC = () => (
     <div style={{ padding: "32px", width: "400px" }}>
       <Row>
         <Alert onClick={handleClick} title="Info" />
@@ -64,4 +61,3 @@ export const WithHandler: React.FC = () => {
       </Row>
     </div>
   );
-};

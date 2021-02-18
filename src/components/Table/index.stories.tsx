@@ -48,10 +48,8 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => {
-  return (
+export const Default: React.FC = () => (
     <div style={{ width: "500px" }}>
       <TableComponent />
     </div>
   );
-};

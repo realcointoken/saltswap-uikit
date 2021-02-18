@@ -47,9 +47,7 @@ interface BackButtonModalProps extends InjectedProps {
 }
 
 const BackButtonModal: React.FC<BackButtonModalProps> = ({ title, onDismiss }) => {
-  const handleOnBack = () => {
-    return 1;
-  };
+  const handleOnBack = () => 1;
 
   return (
     <Modal title={title} onDismiss={onDismiss} onBack={handleOnBack} hideCloseButton>

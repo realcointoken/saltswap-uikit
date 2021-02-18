@@ -17,8 +17,7 @@ export default {
 
 const langs: LangType[] = [...Array(20)].map((_, i) => ({ code: `en${i}`, language: `English${i}` }));
 
-export const Connected: React.FC = () => {
-  return (
+export const Connected: React.FC = () => (
     <BrowserRouter>
       <Menu
         account="0xbdda50183d817c3289f895a4472eb475967dc980"
@@ -54,10 +53,8 @@ export const Connected: React.FC = () => {
       </Menu>
     </BrowserRouter>
   );
-};
 
-export const NotConnected: React.FC = () => {
-  return (
+export const NotConnected: React.FC = () => (
     <BrowserRouter>
       <Menu
         account={null}
@@ -85,10 +82,8 @@ export const NotConnected: React.FC = () => {
       </Menu>
     </BrowserRouter>
   );
-};
 
-export const WithNoProfile: React.FC = () => {
-  return (
+export const WithNoProfile: React.FC = () => (
     <BrowserRouter>
       <Menu
         account="0xbdda50183d817c3289f895a4472eb475967dc980"
@@ -127,10 +122,8 @@ export const WithNoProfile: React.FC = () => {
       </Menu>
     </BrowserRouter>
   );
-};
 
-export const WithProfile: React.FC = () => {
-  return (
+export const WithProfile: React.FC = () => (
     <BrowserRouter>
       <Menu
         account="0xbdda50183d817c3289f895a4472eb475967dc980"
@@ -171,14 +164,11 @@ export const WithProfile: React.FC = () => {
       </Menu>
     </BrowserRouter>
   );
-};
 
-export const MenuEntryComponent: React.FC = () => {
-  return (
+export const MenuEntryComponent: React.FC = () => (
     <Flex justifyContent="space-between" p="16px" style={{ backgroundColor: "wheat" }}>
       <MenuEntry>Default</MenuEntry>
       <MenuEntry secondary>Secondary</MenuEntry>
       <MenuEntry isActive>isActive</MenuEntry>
     </Flex>
   );
-};

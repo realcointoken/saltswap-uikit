@@ -72,6 +72,7 @@ const Menu: React.FC<NavProps> = ({
   currentLang,
   cakePriceUsd,
   links,
+  priceLink,
   profile,
   children,
 }) => {
@@ -140,6 +141,7 @@ const Menu: React.FC<NavProps> = ({
           cakePriceUsd={cakePriceUsd}
           pushNav={setIsPushed}
           links={links}
+          priceLink={priceLink}
         />
         <Inner isPushed={isPushed} showMenu={showMenu}>
           {children}

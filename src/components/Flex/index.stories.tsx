@@ -9,8 +9,7 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => {
-  return (
+export const Default: React.FC = () => (
     <div>
       <Text>You can apply any flexbox properties on the Flex component.</Text>
       <Link href="https://styled-system.com/api#flexbox" target="_blank">
@@ -25,4 +24,3 @@ export const Default: React.FC = () => {
       </Flex>
     </div>
   );
-};

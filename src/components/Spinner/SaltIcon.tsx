@@ -2,8 +2,7 @@ import React from "react";
 import Svg from "../Svg/Svg";
 import { SvgProps } from "../Svg/types";
 
-const Icon: React.FC<SvgProps> = (props) => {
-  return (
+const Icon: React.FC<SvgProps> = (props) => (
     <Svg viewBox="0 0 44 44" {...props}>
       <style>{".prefix__st22{fill:#fff}.prefix__st62{fill:#c9d9e5}.prefix__st63{fill:#e2e7f0}"}</style>
       <g id="prefix__salt">
@@ -46,6 +45,5 @@ const Icon: React.FC<SvgProps> = (props) => {
       </g>
     </Svg>
   );
-};
 
 export default Icon;

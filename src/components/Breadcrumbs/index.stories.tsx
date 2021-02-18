@@ -11,8 +11,7 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => {
-  return (
+export const Default: React.FC = () => (
     <Text p="32px">
       <BreadCrumbs mb="32px">
         <Link href="/" color="secondary" style={{ fontWeight: 400 }}>
@@ -27,10 +26,8 @@ export const Default: React.FC = () => {
       </BreadCrumbs>
     </Text>
   );
-};
 
-export const CustomSeparator: React.FC = () => {
-  return (
+export const CustomSeparator: React.FC = () => (
     <Text p="32px">
       <Text mb="16px">
         <BreadCrumbs separator={<LogoIcon width="24px" />}>
@@ -54,4 +51,3 @@ export const CustomSeparator: React.FC = () => {
       </Text>
     </Text>
   );
-};

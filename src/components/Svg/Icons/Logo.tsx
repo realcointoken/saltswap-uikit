@@ -2,8 +2,7 @@ import React from "react";
 import Svg from "../Svg";
 import { SvgProps } from "../types";
 
-const Icon: React.FC<SvgProps> = (props) => {
-  return (
+const Icon: React.FC<SvgProps> = (props) => (
     <Svg viewBox="0 0 32 32" {...props}>
       <path
         d="M22.213 10.133l2.485 11.046h-.005c-3.659-.896-7.317-3.056-10.981-3.056-3.664 0-7.323 2.16-10.982 3.056l-.064-.016 2.48-11.03h17.067z"
@@ -53,6 +52,5 @@ const Icon: React.FC<SvgProps> = (props) => {
       />
     </Svg>
   );
-};
 
 export default Icon;

@@ -24,12 +24,10 @@ const SaltingIcon = styled(Icon)`
   transform: translate3d(0, 0, 0);
 `;
 
-const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
-  return (
+const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => (
     <Container>
       <SaltingIcon width={`${size * 0.5}px`} />
     </Container>
   );
-};
 
 export default Spinner;

@@ -38,8 +38,7 @@ export default {
   },
 };
 
-export const Default: React.FC = () => {
-  return (
+export const Default: React.FC = () => (
     <div>
       <Text>Default</Text>
       <Text bold>Bold text</Text>
@@ -52,4 +51,3 @@ export const Default: React.FC = () => {
       </Text>
     </div>
   );
-};

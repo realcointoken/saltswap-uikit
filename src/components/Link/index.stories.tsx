@@ -19,8 +19,7 @@ export default {
   },
 };
 
-export const Default: React.FC = () => {
-  return (
+export const Default: React.FC = () => (
     <div>
       <div>
         <Link href="/">Default</Link>
@@ -46,4 +45,3 @@ export const Default: React.FC = () => {
       </div>
     </div>
   );
-};

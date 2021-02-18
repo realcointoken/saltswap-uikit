@@ -20,8 +20,7 @@ export default {
   argTypes: {},
 } as Meta;
 
-export const Default: React.FC = () => {
-  return (
+export const Default: React.FC = () => (
     <>
       <Row>
         {Object.keys(variants).map((variant) => (
@@ -39,10 +38,8 @@ export const Default: React.FC = () => {
       </Row>
     </>
   );
-};
 
-export const WithIcon: React.FC = () => {
-  return (
+export const WithIcon: React.FC = () => (
     <>
       <Row>
         {Object.keys(variants).map((variant) => (
@@ -72,4 +69,3 @@ export const WithIcon: React.FC = () => {
       </Row>
     </>
   );
-};

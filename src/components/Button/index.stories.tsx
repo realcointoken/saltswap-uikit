@@ -22,8 +22,7 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => {
-  return (
+export const Default: React.FC = () => (
     <>
       {Object.values(variants).map((variant) => (
         <Row key={variant}>
@@ -38,10 +37,8 @@ export const Default: React.FC = () => {
       ))}
     </>
   );
-};
 
-export const Variants: React.FC = () => {
-  return (
+export const Variants: React.FC = () => (
     <BrowserRouter>
       <Row>
         <Button as="a" href="https://saltswap.finance" target="_blank" rel="noreferrer">
@@ -90,4 +87,3 @@ export const Variants: React.FC = () => {
       </Row>
     </BrowserRouter>
   );
-};

@@ -64,8 +64,7 @@ export const Default: React.FC = () => {
   );
 };
 
-export const AsLinks: React.FC = () => {
-  return (
+export const AsLinks: React.FC = () => (
     <>
       <Row>
         <ButtonMenu activeIndex={0}>
@@ -82,4 +81,3 @@ export const AsLinks: React.FC = () => {
       </Row>
     </>
   );
-};

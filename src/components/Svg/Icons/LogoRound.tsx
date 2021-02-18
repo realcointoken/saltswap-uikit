@@ -2,8 +2,7 @@ import React from "react";
 import Svg from "../Svg";
 import { SvgProps } from "../types";
 
-const Icon: React.FC<SvgProps> = (props) => {
-  return (
+const Icon: React.FC<SvgProps> = (props) => (
     <Svg viewBox="0 0 32 32" {...props}>
       <g fill="none" fillRule="evenodd">
         <g transform="translate(1 1)">
@@ -66,6 +65,5 @@ const Icon: React.FC<SvgProps> = (props) => {
       </g>
     </Svg>
   );
-};
 
 export default Icon;
