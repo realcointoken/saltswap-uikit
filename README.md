@@ -10,6 +10,10 @@ It also contains a theme file for dark and light mode.
 
 `yarn add @saltswap/uikit`
 
+## npm
+
+https://www.npmjs.com/package/@saltswap/uikit
+
 ## Setup
 
 ### Theme
