@@ -11,10 +11,12 @@ export const links = [
       {
         label: "Exchange",
         href: "https://exchange.saltswap.finance",
+        icon: "ExchangeIcon",
       },
       {
         label: "Liquidity",
         href: "https://exchange.saltswap.finance/#/pool",
+        icon: "LiquidityIcon",
       },
     ],
   },
@@ -100,14 +102,17 @@ export const links = [
       {
         label: "Github",
         href: "https://github.com/saltswap",
+        icon: "GithubIcon",
       },
       {
         label: "Docs",
         href: "https://docs.saltswap.finance",
+        icon: "GitbookIcon",
       },
       {
         label: "Blog",
         href: "	https://medium.com/@saltswap",
+        icon: "MediumIcon",
       },
     ],
   },

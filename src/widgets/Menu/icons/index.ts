@@ -1,3 +1,4 @@
+export { default as ExchangeIcon } from "./Exchange";
 export { default as FarmIcon } from "./Farm";
 export { default as GitbookIcon } from "./Gitbook";
 export { default as GithubIcon } from "./Github";
@@ -8,6 +9,7 @@ export { default as HomeIcon } from "./Home";
 export { default as IfoIcon } from "./Ifo";
 export { default as InfoIcon } from "./Info";
 export { default as LanguageIcon } from "./Language";
+export { default as LiquidityIcon } from "./Liquidity";
 export { default as LogoIcon } from "./Logo";
 export { default as MediumIcon } from "./Medium";
 export { default as MoonIcon } from "./Moon";

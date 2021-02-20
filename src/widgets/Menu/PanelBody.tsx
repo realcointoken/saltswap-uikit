@@ -50,11 +50,21 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
               className={calloutClass}
             >
               {isPushed &&
-                entry.items.map((item) => (
-                  <MenuEntry key={item.href} secondary isActive={item.href === location.pathname} onClick={handleClick}>
-                    <MenuLink href={item.href}>{item.label}</MenuLink>
-                  </MenuEntry>
-                ))}
+                entry.items.map((item) => {
+                  const SubIcon = Icons[item.icon];
+                  const subIconElement = <SubIcon width="18px" mr="8px" />;
+                  return (
+                    <MenuEntry
+                      key={item.href}
+                      secondary
+                      isActive={item.href === location.pathname}
+                      onClick={handleClick}
+                    >
+                      {item.icon && subIconElement}
+                      <MenuLink href={item.href}>{item.label}</MenuLink>
+                    </MenuEntry>
+                  );
+                })}
             </Accordion>
           );
         }
