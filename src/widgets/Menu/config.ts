@@ -36,6 +36,11 @@ export const links = [
     href: "/syrup",
   },
   {
+    label: "Audit By Certik 🚧",
+    icon: "AuditIcon",
+    href: "/audit",
+  },
+  {
     label: "Lottery",
     icon: "TicketIcon",
     href: "/lottery",
