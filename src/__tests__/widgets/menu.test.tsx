@@ -487,6 +487,35 @@ it("renders correctly", () => {
                 role="button"
               >
                 <a
+                  href="/listing"
+                >
+                  <svg
+                    class="sc-dlfnbm jUWFQo"
+                    color="text"
+                    viewBox="0 0 16 12"
+                    width="24px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      fill-rule="evenodd"
+                    >
+                      <path
+                        d="M15 2H1a1 1 0 110-2h14a1 1 0 010 2zM15 7H1a1 1 0 110-2h14a1 1 0 010 2zM15 12H1a1 1 0 010-2h14a1 1 0 010 2z"
+                      />
+                    </g>
+                  </svg>
+                  <div
+                    class="sc-gKsewC krVPty"
+                  >
+                    Listing
+                  </div>
+                </a>
+              </div>
+              <div
+                class="sc-iBPRYJ dObkUC"
+                role="button"
+              >
+                <a
                   href="/lottery"
                 >
                   <svg
