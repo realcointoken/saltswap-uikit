@@ -41,6 +41,11 @@ export const links = [
     href: "/audit",
   },
   {
+    label: "Listing",
+    icon: "ListingIcon",
+    href: "/listing",
+  },
+  {
     label: "Lottery",
     icon: "TicketIcon",
     href: "/lottery",
