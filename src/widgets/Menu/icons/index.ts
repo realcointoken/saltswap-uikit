@@ -3,6 +3,7 @@ export { default as ExchangeIcon } from "./Exchange";
 export { default as FarmIcon } from "./Farm";
 export { default as GitbookIcon } from "./Gitbook";
 export { default as GithubIcon } from "./Github";
+export { default as GraphIcon } from "./Graph";
 export { default as GroupsIcon } from "./Groups";
 export { default as HamburgerIcon } from "./Hamburger";
 export { default as HamburgerCloseIcon } from "./HamburgerClose";

@@ -516,6 +516,31 @@ it("renders correctly", () => {
                 role="button"
               >
                 <a
+                  href="/graph"
+                >
+                  <svg
+                    class="sc-dlfnbm jUWFQo"
+                    color="text"
+                    viewBox="0 0 32 32"
+                    width="24px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M28 25V10a1 1 0 00-1-1h-4a1 1 0 00-1 1v15h-2V6a1 1 0 00-1-1h-4a1 1 0 00-1 1v19h-2V15a1 1 0 00-1-1H7a1 1 0 00-1 1v10H4V5H2v21a1 1 0 001 1h27v-2zm-4-14h2v14h-2zm-8-4h2v18h-2zm-8 9h2v9H8z"
+                    />
+                  </svg>
+                  <div
+                    class="sc-gKsewC krVPty"
+                  >
+                    Graph
+                  </div>
+                </a>
+              </div>
+              <div
+                class="sc-iBPRYJ dObkUC"
+                role="button"
+              >
+                <a
                   href="/lottery"
                 >
                   <svg

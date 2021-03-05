@@ -46,6 +46,11 @@ export const links = [
     href: "/listing",
   },
   {
+    label: "Graph",
+    icon: "GraphIcon",
+    href: "/graph",
+  },
+  {
     label: "Lottery",
     icon: "TicketIcon",
     href: "/lottery",
