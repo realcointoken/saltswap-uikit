@@ -48,9 +48,9 @@ const StyledCardRibbon = styled.div<Partial<StyledCardRibbonProps>>`
 `;
 
 const CardRibbon: React.FC<CardRibbonProps> = ({ variantColor, text }) => (
-    <StyledCardRibbon variantColor={variantColor}>
-      <div title={text}>{text}</div>
-    </StyledCardRibbon>
-  );
+  <StyledCardRibbon variantColor={variantColor}>
+    <div title={text}>{text}</div>
+  </StyledCardRibbon>
+);
 
 export default CardRibbon;

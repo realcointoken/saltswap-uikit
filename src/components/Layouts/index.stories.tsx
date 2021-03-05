@@ -14,17 +14,17 @@ const Stub = styled.div`
 `;
 
 export const Base: React.FC = () => (
-    <BaseLayout>
-      {[...Array(24)].map((value) => (
-        <Stub key={value} />
-      ))}
-    </BaseLayout>
-  );
+  <BaseLayout>
+    {[...Array(24)].map((value) => (
+      <Stub key={value} />
+    ))}
+  </BaseLayout>
+);
 
 export const Cards: React.FC = () => (
-    <CardsLayout>
-      {[...Array(10)].map((value) => (
-        <Stub key={value} />
-      ))}
-    </CardsLayout>
-  );
+  <CardsLayout>
+    {[...Array(10)].map((value) => (
+      <Stub key={value} />
+    ))}
+  </CardsLayout>
+);

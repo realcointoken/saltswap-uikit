@@ -10,17 +10,17 @@ export default {
 };
 
 export const Default: React.FC = () => (
-    <div>
-      <Text>You can apply any flexbox properties on the Flex component.</Text>
-      <Link href="https://styled-system.com/api#flexbox" target="_blank">
-        List of applicable props
-      </Link>
-      <Flex justifyContent="space-between" mt="40px">
-        <span>Left</span>
-        <span>right</span>
-      </Flex>
-      <Flex justifyContent="center" mt="8px">
-        <span>center</span>
-      </Flex>
-    </div>
-  );
+  <div>
+    <Text>You can apply any flexbox properties on the Flex component.</Text>
+    <Link href="https://styled-system.com/api#flexbox" target="_blank">
+      List of applicable props
+    </Link>
+    <Flex justifyContent="space-between" mt="40px">
+      <span>Left</span>
+      <span>right</span>
+    </Flex>
+    <Flex justifyContent="center" mt="8px">
+      <span>center</span>
+    </Flex>
+  </div>
+);

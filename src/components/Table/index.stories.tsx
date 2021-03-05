@@ -49,7 +49,7 @@ export default {
 };
 
 export const Default: React.FC = () => (
-    <div style={{ width: "500px" }}>
-      <TableComponent />
-    </div>
-  );
+  <div style={{ width: "500px" }}>
+    <TableComponent />
+  </div>
+);

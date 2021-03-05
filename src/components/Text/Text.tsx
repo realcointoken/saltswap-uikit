@@ -9,7 +9,7 @@ interface ThemedProps extends TextProps {
 
 const getColor = ({ color, theme }: ThemedProps) => getThemeValue(`colors.${color}`, color)(theme);
 
-const getFontSize = ({ fontSize, small }: TextProps) => small ? "14px" : fontSize || "16px";
+const getFontSize = ({ fontSize, small }: TextProps) => (small ? "14px" : fontSize || "16px");
 
 const Text = styled.div<TextProps>`
   color: ${getColor};

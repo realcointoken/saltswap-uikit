@@ -10,26 +10,26 @@ export default {
 };
 
 export const Default: React.FC = () => (
-    <div>
-      <Dropdown target={<Button>Hover</Button>}>
-        {[...Array(30)].map(() => (
-          <div>Content</div>
-        ))}
-      </Dropdown>
-    </div>
-  );
+  <div>
+    <Dropdown target={<Button>Hover</Button>}>
+      {[...Array(30)].map(() => (
+        <div>Content</div>
+      ))}
+    </Dropdown>
+  </div>
+);
 
 export const Top: React.FC = () => (
-    <Flex justifyContent="space-between" style={{ marginTop: "400px" }}>
-      <Dropdown position="top-right" target={<Button>Top right</Button>}>
-        {[...Array(20)].map(() => (
-          <div>Content</div>
-        ))}
-      </Dropdown>
-      <Dropdown position="top" target={<Button>Top</Button>}>
-        {[...Array(20)].map(() => (
-          <div>Content</div>
-        ))}
-      </Dropdown>
-    </Flex>
-  );
+  <Flex justifyContent="space-between" style={{ marginTop: "400px" }}>
+    <Dropdown position="top-right" target={<Button>Top right</Button>}>
+      {[...Array(20)].map(() => (
+        <div>Content</div>
+      ))}
+    </Dropdown>
+    <Dropdown position="top" target={<Button>Top</Button>}>
+      {[...Array(20)].map(() => (
+        <div>Content</div>
+      ))}
+    </Dropdown>
+  </Flex>
+);

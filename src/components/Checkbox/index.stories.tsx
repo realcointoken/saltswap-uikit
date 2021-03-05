@@ -8,12 +8,12 @@ export default {
 };
 
 export const Default: React.FC = () => (
-    <>
-      <div style={{ marginBottom: "32px" }}>
-        <Checkbox />
-      </div>
-      <div>
-        <Checkbox scale="sm" />
-      </div>
-    </>
-  );
+  <>
+    <div style={{ marginBottom: "32px" }}>
+      <Checkbox />
+    </div>
+    <div>
+      <Checkbox scale="sm" />
+    </div>
+  </>
+);

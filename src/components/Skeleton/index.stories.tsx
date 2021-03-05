@@ -27,11 +27,11 @@ Animation.args = {
 };
 
 export const ParentSize: React.FC = (args) => (
-    <div style={{ width: 200, height: 90 }}>
-      {" "}
-      <Skeleton {...args} />{" "}
-    </div>
-  );
+  <div style={{ width: 200, height: 90 }}>
+    {" "}
+    <Skeleton {...args} />{" "}
+  </div>
+);
 
 export const Text: React.FC = (args) => {
   const [loading, setLoading] = useState(true);

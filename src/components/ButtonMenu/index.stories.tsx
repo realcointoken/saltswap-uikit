@@ -65,19 +65,19 @@ export const Default: React.FC = () => {
 };
 
 export const AsLinks: React.FC = () => (
-    <>
-      <Row>
-        <ButtonMenu activeIndex={0}>
-          <ButtonMenuItem as="a" href="https://saltswap.finance">
-            Link 1
-          </ButtonMenuItem>
-          <ButtonMenuItem as="a" href="https://saltswap.finance">
-            Link 2
-          </ButtonMenuItem>
-          <ButtonMenuItem as="a" href="https://saltswap.finance">
-            Link 3
-          </ButtonMenuItem>
-        </ButtonMenu>
-      </Row>
-    </>
-  );
+  <>
+    <Row>
+      <ButtonMenu activeIndex={0}>
+        <ButtonMenuItem as="a" href="https://saltswap.finance">
+          Link 1
+        </ButtonMenuItem>
+        <ButtonMenuItem as="a" href="https://saltswap.finance">
+          Link 2
+        </ButtonMenuItem>
+        <ButtonMenuItem as="a" href="https://saltswap.finance">
+          Link 3
+        </ButtonMenuItem>
+      </ButtonMenu>
+    </Row>
+  </>
+);
