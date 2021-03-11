@@ -148,7 +148,7 @@ export const socials = [
         href: "https://t.me/saltswap",
       },
       {
-        label: "Russia",
+        label: "Русский",
         href: "https://t.me/saltswaprussia",
       },
       {
