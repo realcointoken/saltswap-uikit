@@ -147,6 +147,14 @@ export const socials = [
         label: "English",
         href: "https://t.me/saltswap",
       },
+      {
+        label: "Русский",
+        href: "https://t.me/saltswaprussia",
+      },
+      {
+        label: "Deutsch",
+        href: "https://t.me/SaltSwapDeutsch",
+      },
     ],
   },
   {
