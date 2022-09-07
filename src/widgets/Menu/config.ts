@@ -31,12 +31,12 @@ export const links = [
     href: "/syrup",
   },
   {
-    label: "Oceans",
+    label: "Shine Farms",
     icon: "WaveIcon",
     href: "/syrup",
   },
   {
-    label: "Audit By Certik 🚧",
+    label: "Audit By ... 🚧",
     icon: "AuditIcon",
     href: "/audit",
   },
